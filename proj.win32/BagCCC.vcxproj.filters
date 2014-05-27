@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Bag">
+      <UniqueIdentifier>{f880c124-96e6-47ff-998f-3ce5fbba3f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\autoGame">
+      <UniqueIdentifier>{2e992cdf-2bea-4a06-9145-ff457f8ef51a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\BagManager.cpp">
+      <Filter>Classes\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Bagpanel.cpp">
+      <Filter>Classes\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\BagPanelTableViewCell.cpp">
+      <Filter>Classes\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\TempBagPanel.cpp">
+      <Filter>Classes\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\TempBagPanelTableViewCell.cpp">
+      <Filter>Classes\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\autoGame\AutoGameMapPanel.cpp">
+      <Filter>Classes\autoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\autoGame\AutoGamePanel.cpp">
+      <Filter>Classes\autoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\BagManager.h">
+      <Filter>Classes\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Bagpanel.h">
+      <Filter>Classes\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\BagPanelTableViewCell.h">
+      <Filter>Classes\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\TempBagPanel.h">
+      <Filter>Classes\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\TempBagPanelTableViewCell.h">
+      <Filter>Classes\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\autoGame\AutoGameMapPanel.h">
+      <Filter>Classes\autoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\autoGame\AutoGamePanel.h">
+      <Filter>Classes\autoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ItemDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MacrosDefine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

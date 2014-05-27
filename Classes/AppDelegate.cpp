@@ -19,7 +19,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     pDirector->setOpenGLView(pEGLView);
 	
-	CCEGLView::sharedOpenGLView()->setDesignResolutionSize(640, 960, kResolutionShowAll);
+	CCEGLView::sharedOpenGLView()->setDesignResolutionSize(640, 960, kResolutionExactFit);
 
 
 

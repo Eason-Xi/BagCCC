@@ -4,8 +4,8 @@
 
 
 //主背景,背包下的背景
-#define MAIN_BG_387_164 ""
-#define MAIN_BG_387_164_CCRect
+#define MAIN_BG_387_164 "ui/bagbg.png"
+#define MAIN_BG_387_164_CCRect 
 
 /*
 

@@ -43,13 +43,14 @@ void Bagpanel::initBagPanel()
 	
 	//±³¾°
 	float bgWidth =  winSize.width;
-	float bgHeight =  winSize.height-80;
+	float bgHeight =  winSize.height;
 	this->setContentSize(CCSizeMake(bgWidth,bgHeight));
-	this->setPosition(0,80);
+	this->setPosition(0,0);
 
 	scale9Size = CCSize(bgWidth,bgHeight);
 	scale9Image = MAIN_BG_387_164;
 	//_bg = CCScale9Sprite::createWithSpriteFrameName(scale9Image, MAIN_BG_387_164_CCRect);
+	_bg =  CCSprite::create(scale9Image);
 	_bg->setContentSize(scale9Size);
 	_bg->setAnchorPoint(ccp(0,0));
 	_bg->setPosition(ccp(0,0));
